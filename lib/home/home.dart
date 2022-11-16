@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
                 child:  Center(
                   child: Column(
                     children: [
-                      Image.asset('assets/12953573_Data_security_05-removebg-preview.png',
+                      Image.asset('assets/info-icon-template-information-icon-colorful-free-vector-removebg-preview.png',
                       height: 130,
                       width: 130,
                       fit: BoxFit.contain,
