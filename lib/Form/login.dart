@@ -58,6 +58,7 @@ class Login extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal:   12.0),
                 child: TextField(
+                  obscureText: true,
                   decoration: InputDecoration(
                       suffix: TextButton(
                           onPressed: () {},
