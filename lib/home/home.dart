@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:spacc/customerinfo/customerinfo.dart';
+import 'package:spacc/newcustomer/newcustomer.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -19,9 +21,7 @@ class Home extends StatelessWidget {
                 
                 
                 child: InkWell(
-                onTap: () {
-                  
-                },
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const CustomerInfo(),)),
                 splashColor: Colors.blueAccent,
                 child:  Center(
                   child: Column(
@@ -53,9 +53,7 @@ class Home extends StatelessWidget {
                 
                 
                 child: InkWell(
-                onTap: () {
-                  
-                },
+                onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) =>const CustomerRegister(),)),
                 splashColor: Colors.blueAccent,
                 child:  Center(
                   child: Column(
@@ -256,9 +254,7 @@ class Home extends StatelessWidget {
                 
                 
                 child: InkWell(
-                onTap: () {
-                  
-                },
+                onTap:() => Navigator.pop(context),
                 splashColor: Colors.blueAccent,
                 child:  Center(
                   child: Column(
