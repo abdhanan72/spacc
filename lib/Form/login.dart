@@ -66,7 +66,11 @@ class Login extends StatelessWidget {
                     builder: (context) => const Home(),
                   )),
               child: const Text('Login'),
-            )
+            ),
+              SizedBox(
+                                  height:
+                                      MediaQuery.of(context).viewInsets.bottom,
+                                ),
           ],
         ),
       ),
