@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 12.0),
-              child: Image.asset('assets/My project.png'),
+              child: Image.asset('assets/spacc_logo-1__2__page-0001-removebg-preview.png'),
             ),
             const Text(
               'Login',
