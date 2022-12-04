@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121415624006",
+    "project_id": "spacc-33887",
+    "storage_bucket": "spacc-33887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121415624006:android:a7c76c328332833d9bb147",
+        "android_client_info": {
+          "package_name": "com.example.spacc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121415624006-d87r2sj25cem1k037ucdq9cgscm8bqmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJZvSfqkoGC4zpxn8XNH0EUwKksFXyBls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121415624006-d87r2sj25cem1k037ucdq9cgscm8bqmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
